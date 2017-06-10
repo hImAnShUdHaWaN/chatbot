@@ -1,0 +1,363 @@
+{
+  "templates": [
+    "sell @sys.number-integer:quantity shares of @security:security at @sys.number:price ",
+    "please sell @security:security  @sys.number-integer:quantity shares for @sys.number:price each",
+    "sell @sys.number-integer:quantity quantity of @security:security for @sys.number:price each",
+    "sell @security:security  @sys.number-integer:quantity for @sys.number:price ",
+    "sell @sys.number-integer:quantity shares of @security:security at @sys.number:price each",
+    "i ask you to sell @security:security  @sys.number-integer:quantity shares for @sys.number:price each",
+    "@security:security sell @sys.number-integer:quantity for @sys.number:price ",
+    "please sell @sys.number-integer:quantity stocks of @security:security at @sys.number:price "
+  ],
+  "userSays": [
+    {
+      "id": "0950b9ef-0ddd-4176-8df5-2eb129bb2c67",
+      "data": [
+        {
+          "text": "sell "
+        },
+        {
+          "text": "500",
+          "alias": "quantity",
+          "meta": "@sys.number-integer",
+          "userDefined": true
+        },
+        {
+          "text": " shares of "
+        },
+        {
+          "text": "infosys",
+          "alias": "security",
+          "meta": "@security",
+          "userDefined": true
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "1000.00",
+          "alias": "price",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bd74cf0b-b065-4d6d-be78-c163a557e54c",
+      "data": [
+        {
+          "text": "please sell "
+        },
+        {
+          "text": "RIL",
+          "alias": "security",
+          "meta": "@security",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "500",
+          "alias": "quantity",
+          "meta": "@sys.number-integer",
+          "userDefined": false
+        },
+        {
+          "text": " shares for "
+        },
+        {
+          "text": "1000.00",
+          "alias": "price",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " each"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c2a0a077-c179-40dc-8d59-9cc6c8332e1e",
+      "data": [
+        {
+          "text": "sell "
+        },
+        {
+          "text": "100",
+          "alias": "quantity",
+          "meta": "@sys.number-integer",
+          "userDefined": false
+        },
+        {
+          "text": " quantity of "
+        },
+        {
+          "text": "Wipro",
+          "alias": "security",
+          "meta": "@security",
+          "userDefined": false
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "599.99",
+          "alias": "price",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " each"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "031f6bf6-a368-4aa9-9b0c-b17d53c17e44",
+      "data": [
+        {
+          "text": "sell "
+        },
+        {
+          "text": "cipla",
+          "alias": "security",
+          "meta": "@security",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "50",
+          "alias": "quantity",
+          "meta": "@sys.number-integer",
+          "userDefined": false
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "100.00",
+          "alias": "price",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "44644f5d-086b-4ab9-9d98-ba6d2e9c0622",
+      "data": [
+        {
+          "text": "sell "
+        },
+        {
+          "text": "100",
+          "alias": "quantity",
+          "meta": "@sys.number-integer",
+          "userDefined": true
+        },
+        {
+          "text": " shares of "
+        },
+        {
+          "text": "ONGC",
+          "alias": "security",
+          "meta": "@security",
+          "userDefined": true
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "50.00",
+          "alias": "price",
+          "meta": "@sys.number",
+          "userDefined": true
+        },
+        {
+          "text": " each"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9815dfec-4db2-4dd0-9983-ed483f88b67b",
+      "data": [
+        {
+          "text": "i ask you to sell "
+        },
+        {
+          "text": "ITC",
+          "alias": "security",
+          "meta": "@security",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "100",
+          "alias": "quantity",
+          "meta": "@sys.number-integer",
+          "userDefined": true
+        },
+        {
+          "text": " shares for "
+        },
+        {
+          "text": "99.99",
+          "alias": "price",
+          "meta": "@sys.number",
+          "userDefined": true
+        },
+        {
+          "text": " each"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ed6ff2b5-f0fe-4e83-bd36-39ed9ae127c7",
+      "data": [
+        {
+          "text": "HUL",
+          "alias": "security",
+          "meta": "@security",
+          "userDefined": false
+        },
+        {
+          "text": " sell "
+        },
+        {
+          "text": "100",
+          "alias": "quantity",
+          "meta": "@sys.number-integer",
+          "userDefined": false
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "122.23",
+          "alias": "price",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e667a421-04ce-499d-8db5-ff8073863cba",
+      "data": [
+        {
+          "text": "please sell "
+        },
+        {
+          "text": "100",
+          "alias": "quantity",
+          "meta": "@sys.number-integer",
+          "userDefined": false
+        },
+        {
+          "text": " stocks of "
+        },
+        {
+          "text": "Infosys",
+          "alias": "security",
+          "meta": "@security",
+          "userDefined": false
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "1035.90",
+          "alias": "price",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "13bd6a06-2dcd-4c42-9980-f6c099908e15",
+  "name": "sellStock",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ZerodhaTradeAction",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "price",
+          "value": "$price",
+          "prompts": [
+            "Ok. What price do you want to sell this.",
+            "Is their a price you wan to sell this stock at.",
+            "What would the price be?"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@security",
+          "name": "security",
+          "value": "$security",
+          "prompts": [
+            "You need to mention what security you want to sell",
+            "Would you like to mention the security name",
+            "No. This ain't gonna work this way. You need to tell me the security name"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "quantity",
+          "value": "$quantity",
+          "prompts": [
+            "And how much quantity would you like to sell",
+            "What would the quantity be?",
+            "Dude, care to mention the quantity?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Your order is executed. You would get the receipt for $quantity of $security",
+            "Here you go.. I completed it.. Sold $quantity of $security for $price each.",
+            "Guess what. I was able to place the order.  Your order to sell $security for $price is successful."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": []
+}

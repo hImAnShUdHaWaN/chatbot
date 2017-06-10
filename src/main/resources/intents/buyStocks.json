@@ -1,0 +1,362 @@
+{
+  "templates": [
+    "@security:security buy @sys.number-integer:quantity for @sys.number:price ",
+    "for @sys.number:price each buy @sys.number-integer:quantity shares of @security:security ",
+    "i ask you to buy @security:security  @sys.number-integer:quantity shares for @sys.number:price each",
+    "buy @sys.number-integer:quantity shares of @security:security at @sys.number:price each",
+    "buy @security:security  @sys.number-integer:quantity for @sys.number:price ",
+    "please buy @security:security  @sys.number-integer:quantity shares for @sys.number:price each",
+    "can you buy @sys.number-integer:quantity shares of @security:security at @sys.number:price ",
+    "buy @sys.number-integer:quantity shares of @security:security at @sys.number:price "
+  ],
+  "userSays": [
+    {
+      "id": "b1534315-a185-4a12-9427-a7adc94b5d6e",
+      "data": [
+        {
+          "text": "HUL",
+          "alias": "security",
+          "meta": "@security",
+          "userDefined": false
+        },
+        {
+          "text": " buy "
+        },
+        {
+          "text": "100",
+          "alias": "quantity",
+          "meta": "@sys.number-integer",
+          "userDefined": true
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "122.23",
+          "alias": "price",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "86e69326-e9b3-4564-a90f-f738d2fb65eb",
+      "data": [
+        {
+          "text": "for "
+        },
+        {
+          "text": "500.00",
+          "alias": "price",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " each buy "
+        },
+        {
+          "text": "10",
+          "alias": "quantity",
+          "meta": "@sys.number-integer",
+          "userDefined": false
+        },
+        {
+          "text": " shares of "
+        },
+        {
+          "text": "TCS",
+          "alias": "security",
+          "meta": "@security",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6429a9c3-a18e-486c-a690-b449f070959b",
+      "data": [
+        {
+          "text": "i ask you to buy "
+        },
+        {
+          "text": "ITC",
+          "alias": "security",
+          "meta": "@security",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "100",
+          "alias": "quantity",
+          "meta": "@sys.number-integer",
+          "userDefined": true
+        },
+        {
+          "text": " shares for "
+        },
+        {
+          "text": "99.99",
+          "alias": "price",
+          "meta": "@sys.number",
+          "userDefined": true
+        },
+        {
+          "text": " each"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1cc6cbaa-6b7f-4f0c-b508-32ab199af13d",
+      "data": [
+        {
+          "text": "buy "
+        },
+        {
+          "text": "100",
+          "alias": "quantity",
+          "meta": "@sys.number-integer",
+          "userDefined": false
+        },
+        {
+          "text": " shares of "
+        },
+        {
+          "text": "ONGC",
+          "alias": "security",
+          "meta": "@security",
+          "userDefined": false
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "50.00",
+          "alias": "price",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " each"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a64bd339-87eb-4372-bf14-580dfb328bd9",
+      "data": [
+        {
+          "text": "buy "
+        },
+        {
+          "text": "cipla",
+          "alias": "security",
+          "meta": "@security",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "50",
+          "alias": "quantity",
+          "meta": "@sys.number-integer",
+          "userDefined": false
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "100.00",
+          "alias": "price",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e75cf35e-0843-47ab-ae11-cc6acbcf2d00",
+      "data": [
+        {
+          "text": "please buy "
+        },
+        {
+          "text": "RIL",
+          "alias": "security",
+          "meta": "@security",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "500",
+          "alias": "quantity",
+          "meta": "@sys.number-integer",
+          "userDefined": false
+        },
+        {
+          "text": " shares for "
+        },
+        {
+          "text": "1000.00",
+          "alias": "price",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " each"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "152ef9f8-488d-420d-90ff-1646152c5abc",
+      "data": [
+        {
+          "text": "can you buy "
+        },
+        {
+          "text": "100",
+          "alias": "quantity",
+          "meta": "@sys.number-integer",
+          "userDefined": true
+        },
+        {
+          "text": " shares of "
+        },
+        {
+          "text": "infy",
+          "alias": "security",
+          "meta": "@security",
+          "userDefined": true
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "500.55",
+          "alias": "price",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2c22147d-9c2b-4984-a562-f35b77e4cb9f",
+      "data": [
+        {
+          "text": "buy "
+        },
+        {
+          "text": "500",
+          "alias": "quantity",
+          "meta": "@sys.number-integer",
+          "userDefined": false
+        },
+        {
+          "text": " shares of "
+        },
+        {
+          "text": "infosys",
+          "alias": "security",
+          "meta": "@security",
+          "userDefined": false
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "1000.00",
+          "alias": "price",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "65b00868-0466-4d8e-9ba3-1844db3ce26f",
+  "name": "buyStocks",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ZerodhaTradeAction",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "quantity",
+          "value": "$quantity",
+          "prompts": [
+            "Did you mention the quantity",
+            "I guess you missed the quantity",
+            "I cannot buy the whole lot. Give me the quantity",
+            "It ain\u0027t going to work this way. I need the quantity"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@security",
+          "name": "security",
+          "value": "$security",
+          "prompts": [
+            "Ok.. And what do you want to buy?",
+            "Would that be all, care to mention the security name?",
+            "No. You don\u0027t get it. I buy securities.",
+            "Please mention the name of the security"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "price",
+          "value": "$price",
+          "prompts": [
+            "What price do you want me to buy it.",
+            "You cannot do it like this. You need to tell me the price.",
+            "Please let me know what price i should buy this for."
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Your order is executed. You would get the receipt for $quantity of $security",
+            "Here you go.. I completed it.. Bought $quantity of $security for $price each.",
+            "Guess what. I was able to place the order. Your order to buy $security for $price is successful."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": []
+}
